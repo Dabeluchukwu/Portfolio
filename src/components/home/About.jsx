@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import resume from "../../assets/docs/osorachukwu-ezewi-cv.pdf";
+import resume from "../../assets/docs/NWABUEZE-DABELUCHUKWU-CV.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

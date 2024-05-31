@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import myPhoto from "../../assets/My portfolio img.png";
 import dottedBg from "../../assets/icons/bg-dottedsmall.svg";
 // import bricks from '../../assets/icons/rectangleBg.svg'
-import resume from "../../assets/docs/osorachukwu-ezewi-cv.pdf";
+import resume from "../../assets/docs/NWABUEZE-DABELUCHUKWU-CV.pdf";
 import Logo from "../Logo";
 
 function Hero() {
@@ -62,6 +62,9 @@ function Hero() {
             <img src={dottedBg} alt="" className="animate-pulse" />
           </div>
         </div>
+        <div className="ml-[50%] translate-x-[-50%] md:hidden relative ">
+            <img src={myPhoto} alt="" id="port" className="h-full hover:grayscale" />
+          </div>
       </section>
     </>
   );

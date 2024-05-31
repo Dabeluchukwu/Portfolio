@@ -25,10 +25,10 @@ const toggleDarkMode = useContext(MyContext);
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu p-4 min-h-full bg-base-200 dark:bg-darkBgLight text-base-content dark:text-white text-lg w-[70%] ">
+          <ul className="menu p-4 min-h-full bg-base-200 dark:bg-darkBgLight text-base-content dark:text-green-300 text-lg w-[70%] ">
             {/* Sidebar content here */}
-            <li className="font-medium text-2xl text-textMedium dark:text-green-400">
-              <a> Dabi. </a>
+            <li className="font-medium text-2xl text-green-700 dark:text-green-400">
+              <a href="#home"> Dabi. </a>
             </li>
             <li>
               <a href="#home">Home</a>
