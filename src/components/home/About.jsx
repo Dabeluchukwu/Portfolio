@@ -33,8 +33,8 @@ function About() {
               Welcome! My name is Nwabueze Dabeluchukwu, i'm a front-end developer based in Nigeria. I'm passionate about cutting-edge, pixel-perfect, beautiful interface and intuitively implemented UX. Powered by VS Code and tea, i turn your requirements into CMS-ified and ecommerce-ified websites - on time and on budget.
             </p>
             <a
-              href={resume}
-              download={resume}
+              href="#footer"
+              // download={resume}
               className="text-xl btn btn-lg border-green-400 btn-wide rounded-none bg-green-400 text-white hover:bg-white hover:text-green-400 hover:border-green-400"
               data-aos="fade-up"
             >
