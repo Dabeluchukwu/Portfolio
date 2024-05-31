@@ -39,7 +39,7 @@ function Footer() {
 
           <div className="flex justify-center mt-5">
             <a
-              href="dabeluc@gmail.com"
+              href="mailto:dabeluc@gmail.com"
               className="btn rounded-none text-xl text-white bg-green-400 border-green-400 hover:text-green-400 hover:bg-white hover: hover:border hover:border-green-400"
             >
               Find me an email
