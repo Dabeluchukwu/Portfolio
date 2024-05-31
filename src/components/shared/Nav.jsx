@@ -6,22 +6,22 @@ function Nav() {
   const toggleDarkMode = useContext(MyContext);
 
   return (
-    <nav className="hidden text-xl font-medium h-full lg:block">
+    <nav className="hidden text-xl font-medium h-full lg:block text-green-700 ">
       <ul className="flex h-full">
-        <li className="border-l border-borderColor px-12 h-full hover:text-textLight flex flex-col justify-center lg:px-8 dark:text-white">
+        <li className="border-l border-green-300 px-12 h-full hover:text-green-400 flex flex-col justify-center lg:px-8 dark:text-green-700">
           <a href="#home">Home</a>
         </li>
-        <li className="border-l border-borderColor px-12 h-full hover:text-textLight flex flex-col justify-center dark:text-white">
+        <li className="border-l border-green-300 px-12 h-full hover:text-green-400 flex flex-col justify-center dark:text-green-700">
           <a href="#about">About</a>
         </li>
-        <li className="border-l border-borderColor px-12 h-full hover:text-textLight flex flex-col justify-center dark:text-white">
+        <li className="border-l border-green-300 px-12 h-full hover:text-green-400 flex flex-col justify-center dark:text-green-700">
           <a href="#experience">Portfolio</a>
         </li>
-        <li className="border-l border-borderColor px-12 h-full hover:text-textLight flex flex-col justify-center dark:text-white">
+        <li className="border-l border-green-300 px-12 h-full hover:text-green-400 flex flex-col justify-center dark:text-green-700">
           <a href="#footer">Contact</a>
         </li>
-        <li className="border-l border-borderColor px-12 h-full hover:text-textLight flex flex-col justify-center dark:text-white underline whitespace-nowrap">
-          <a href="mailto:osorachukwu.ezewi@gmail.com">Fire me an email</a>
+        <li className="border-l border-green-300 px-12 h-full hover:text-green-400 flex flex-col justify-center dark:text-green-700 underline whitespace-nowrap">
+          <a href="dabluc@gmail.com">Find me an email</a>
         </li>
 
         <div className="flex items-center">

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import myPhoto from "../../assets/osorachukwuMain.png";
+// import myPhoto from "../../assets/osorachukwuMain.png";
+import myPhoto from "../../assets/My portfolio img.png";
 import dottedBg from "../../assets/icons/bg-dottedsmall.svg";
 // import bricks from '../../assets/icons/rectangleBg.svg'
 import resume from "../../assets/docs/osorachukwu-ezewi-cv.pdf";
@@ -10,10 +11,10 @@ function Hero() {
     <>
     {/* 👇 I used this div below to create a space btwn the header and the hero */}
       <div className="h-24 hidden lg:block" />
-      <section className="pt-14 md:pt-0 lg:h-[80vh] xl:h-[90vh] relative z-0 bg-white dark:bg-darkBgLight">
+      <section className="pt-14 md:pt-0 lg:h-[80vh] xl:h-[90vh] relative z-0 bg-white dark:bg-gray-700">
         {/* Floating text 👇*/}
         <p className="hidden lg:block absolute top-32 -left-12 rotate-90 text-7xl font-semibold italic opacity-5 dark:text-white">
-          Osora
+          Dabi
         </p>
         {/* Floating text ☝*/}
 
@@ -22,11 +23,11 @@ function Hero() {
           {/* First column 👇*/}
           <div className="flex flex-col justify-end pt-24 pb-6 lg:justify-center xl:justify-end xl:pb-20 md:w-[50%] lg:pl-24 md:font-medium">
             {/* Texts container 👇*/}
-            <div className="left-anime text-textMedium dark:text-white">
-              <p className="text-textLight">Hi, my name is</p>
+            <div className="left-anime text-green-700 dark:text-green-500">
+              <p className="text-green-400">Hi, I'm</p>
               <p className="font-medium text-5xl my-5 md:text-6xl lg:font-bold glitch">
-                Osorachukwu <br />
-                Ezewi{" "}
+                Nwabueze <br />
+                Dabeluchukwu{" "}
               </p>
               <p>
                 I'm a Frontend Web Developer experienced in building Industry
@@ -38,7 +39,7 @@ function Hero() {
               <a
                 href={resume}
                 download={resume}
-                className="mt-6 text-textLight btn rounded-none bg-inherit border-textLight lg:btn-lg hover:bg-textLight hover:text-white"
+                className="mt-6 text-green-400 btn rounded-none bg-inherit border-green-400 lg:btn-lg hover:bg-green-400 hover:text-white"
               >
                 Download CV
               </a>

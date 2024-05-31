@@ -22,8 +22,8 @@ function SpalshScreen() {
         )}
 
         {showSplash && (
-          <main className="bg-black text-textLight flex items-center justify-center min-h-screen w-full fixed top-0 z-50">
-            <p className="text-5xl font-semibold animate-bounce text-center">Osora.</p>
+          <main className="bg-black text-green-700 flex items-center justify-center min-h-screen w-full fixed top-0 z-50">
+            <p className="text-5xl font-semibold animate-bounce text-center">Dabi.</p>
           </main>
         )}
     </>

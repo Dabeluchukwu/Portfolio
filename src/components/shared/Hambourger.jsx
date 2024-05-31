@@ -27,8 +27,8 @@ const toggleDarkMode = useContext(MyContext);
           ></label>
           <ul className="menu p-4 min-h-full bg-base-200 dark:bg-darkBgLight text-base-content dark:text-white text-lg w-[70%] ">
             {/* Sidebar content here */}
-            <li className="font-medium text-2xl text-textMedium dark:text-textLight">
-              <a> Osora. </a>
+            <li className="font-medium text-2xl text-textMedium dark:text-green-400">
+              <a> Dabi. </a>
             </li>
             <li>
               <a href="#home">Home</a>

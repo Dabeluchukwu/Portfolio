@@ -10,23 +10,23 @@ function Experience() {
 
   const experienceData = [
     {
-      title: "Software Engineer(contract)",
+      title: "Software Engineer(Intern)",
       pow: "Innovatespace",
-      duration: "October 2020 - Present",
-      'description-one': "  Part time Code instructor and mentorship program at the software training academy ",
-      'description-two': "Paticipated in building of one of the company's websites one of the company website, with the rest of the dev team.",
+      duration: "June 2024 - Present",
+      // 'description-one': "  Part time Code instructor and mentorship program at the software training academy ",
+      'description-one': "Paticipated in building of one of the company's websites and performing tasks with the rest of the dev team.",
     },
 
     {
-      title: "UI Designer(Intern)",
-      pow: "Clarion Technologies",
-      duration: "June 2019 -  December 2020",
-      'description-one': " Participated in user reasearches, designing of low and high-fidelity prototypes for a series of web and mobile App projects. ",
+      title: "Software Engineer(Trainee)",
+      pow: "Innovatespace",
+      duration: "February 2024 -  June 2024",
+      'description-one': " Learnt from highly skilled code instructors and gained valueable knowledge and real-life experience under their mentorship program ",
       
     },
   ];
   return (
-    <section className="text-textMedium dark:text-white relative bg-white dark:bg-darkBgLight" id="experience">
+    <section className="text-green-700 dark:text-green-400 relative bg-white dark:bg-gray-700" id="experience">
       {/* Floating Text 👇 */}
        <p className="hidden lg:block absolute top-[400px] -left-28 rotate-90 text-7xl font-semibold italic opacity-5">Experience</p>
       {/* Floating Text ☝ */}
@@ -34,21 +34,21 @@ function Experience() {
       <div className="container mx-auto px-6 py-28">
         {/* <p className="">Experience</p> */}
 
-        <p className="text-4xl pb-10 md:text-5xl text-textMedium dark:text-textLight">
+        <p className="text-4xl pb-10 md:text-5xl text-green-500 dark:text-green-400">
           Experience
         </p>
 
         <div className="lg:px-48" data-aos = "fade-right">
           {experienceData.map((experience, index) => (
-            <div key={index} className="border-t-[0.2px] border-borderColor py-5 lg:py-10">
+            <div key={index} className="border-t-[0.2px] border-green-400 py-5 lg:py-10">
               <div>
                 <p className="sm:text-2xl">{experience.title}</p>
                 <p className="text-end text-sm md:text-lg" style={{lineHeight: "0"}}>{`@${experience.pow}`}</p>
-                <p className="py-4 text-textLight text-lg">{experience.duration}</p>
+                <p className="py-4 text-green-400 text-lg">{experience.duration}</p>
               </div>
               <ul>
                 <li className="mb-3">{experience["description-one"]}</li>
-                <li>{experience["description-two"]}</li>
+                {/* <li>{experience["description-two"]}</li> */}
                 {/* ☝the square brackets is cos I wrapped the keys in qoutes */}
               </ul>
             </div>

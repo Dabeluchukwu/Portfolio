@@ -17,7 +17,7 @@ function Gallery() {
   const logos = [figmaLogo, htmlLogo, jsLogo, cssLogo, tailwindLogo, reactLogo, sassLogo, githubLogo, gitLogo, linkedin];
 
   return (
-    <section className='flex justify-between gap-[2px] border-y-[2px]'>
+    <section className='flex justify-between gap-[2px] border-y-[2px] '>
       {logos.map((logo, index)=> (
         <div key={index} className='flex justify-center h-full w-full'>
             <img src={logo} alt="tech-logos" className='w-40' />

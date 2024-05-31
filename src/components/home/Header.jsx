@@ -25,7 +25,7 @@ function Header() {
 
  
   return (
-    <section className="w-full border bg-white dark:bg-darkBgLight border-b-borderColor z-20 lg:h-20 xl:h-24 fixed" id="home">
+    <section className="w-full border bg-white dark:bg-gray-900 border-green-300 z-20 lg:h-20 xl:h-24 fixed" id="home">
       <div className="flex justify-between px-10 overflow-hidden lg:flex lg:justify-between lg:px-24 lg:h-full lg:py-0 xl:px-20">
         <Logo />
         <Nav />
