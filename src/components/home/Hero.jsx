@@ -37,8 +37,8 @@ function Hero() {
             {/* Button 👇*/}
             <div>
               <a
-                href="#footer"
-                // download={resume}
+                href={resume}
+                download={resume}
                 className="mt-6 text-green-400 btn rounded-none bg-inherit border-green-400 lg:btn-lg hover:bg-green-400 hover:text-white"
               >
                 Download CV
