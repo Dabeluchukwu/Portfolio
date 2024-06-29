@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import myPhoto from "../../assets/My portfolio img.png";
 import dottedBg from "../../assets/icons/bg-dottedsmall.svg";
 // import bricks from '../../assets/icons/rectangleBg.svg'
-import resume from "../../assets/docs/NWABUEZE-DABELUCHUKWU-CV.pdf";
+import resume from "../../assets/docs/NWABUEZE DABELUCHUKWU.pdf";
 import Logo from "../Logo";
 
 function Hero() {

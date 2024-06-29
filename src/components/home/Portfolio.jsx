@@ -8,10 +8,11 @@ import linkIcon from "../../assets/icons/link-icon.svg";
 import githubIcon from "../../assets/icons/github-black.svg";
 import MeCard from "../features/portfolio/MeCard";
 import myPhoto from "../../assets/thirdPhoto.png"
+import tac from "../../assets/icons/WhatsApp Image 2024-06-29 at 06.24.31_471858ef.jpg"
 
 function Portfolio() {
   const projectsDetails = [
-    // {
+   {
     //    image: projectThree,
     //    header: "Innovate space client project website",
     //    description:
@@ -21,7 +22,7 @@ function Portfolio() {
     //    githubLink: null,
     //    githubIcon: null,
     //    linkIcon: linkIcon,
-    // },
+    },
     // {
     //   image: projectTwo,
     //   header: "Rest Countries App",
@@ -39,12 +40,25 @@ function Portfolio() {
       header: "My Portfolio Website",
       description:
         " My Portfolio Website pretty much the same website you are on at the moment. I guess it's all part of what I've built after all",
-      technologies: ["React", "Tailwind", "Daist UI"],
-      siteLink: "https://Dabeluchukwu.vercel.app/",
+      technologies: ["React", "Tailwind", "Daist UI", "Typescripts"],
+      siteLink: "https://tac10-media.vercel.app/",
       githubLink: "https://github.com/Dabeluchukwu",
       githubIcon: githubIcon,
       linkIcon: linkIcon,
+    },
+
+    {
+      image: tac,
+      header: "Tac10 Media Website",
+      description:
+        "Tac10 media website is a portfolio website for a cinematography, videography and drone piloting company",
+      technologies: ["React", "Tailwind", "Daist UI"],
+      siteLink: "https://Dabeluchukwu.vercel.app/",
+      githubLink: null,
+      githubIcon: githubIcon,
+      linkIcon: linkIcon,
     }
+
 
   ];
 
