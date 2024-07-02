@@ -99,11 +99,11 @@ function Portfolio() {
               </div>
 
               {/* Technologies used👇 */}
-              <div className="flex gap-4 lg:justify-end text-green-400">
-                {project.technologies.map((_, idx) => {
+              {/* <div className="flex gap-4 lg:justify-end text-green-400">
+                {project.technologies.map(( idx) => {
                   return <p key={idx}>{_}</p>;
                 })}
-              </div>
+              </div> */}
 
               {/* 👇Links */}
               <div className="flex gap-5 pt-3 lg:justify-end ">
